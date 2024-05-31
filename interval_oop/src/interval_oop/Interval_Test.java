@@ -6,17 +6,11 @@ import org.junit.jupiter.api.Test;
 
 class Interval_Test {
 
-
-
-	
-	
-	
 	@Test
 	void testIntervals(){
 		
-		interval myInterval=new interval();
-		myInterval.setLowerBound( 3);
-		myInterval.setUpperBound( 7);
+		interval myInterval=new interval(3,7);
+		
 		
 		
 		int length=myInterval.getUpperBound()-myInterval.getLowerBound();
