@@ -15,11 +15,11 @@ class Interval_Test {
 	void testIntervals(){
 		
 		interval myInterval=new interval();
-		interval.setLowerBound(myInterval, 3);
-		interval.setUpperBound(myInterval, 7);
+		myInterval.setLowerBound( 3);
+		myInterval.setUpperBound( 7);
 		
 		
-		int length=interval.getUpperBound(myInterval)-interval.getLowerBound(myInterval);
+		int length=myInterval.getUpperBound()-myInterval.getLowerBound();
 		assertEquals(4,length);
 	}
 	

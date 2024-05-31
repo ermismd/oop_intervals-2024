@@ -6,20 +6,20 @@ public class interval {
 	private int upperbound;
 	
 	
-	public static int getLowerBound(interval interval) {
-		return interval.lowerbound;
+	public int getLowerBound() {
+		return this.lowerbound;
 	}
 	
-	public static int getUpperBound(interval interval) {
-		return interval.upperbound;
+	public int getUpperBound() {
+		return this.upperbound;
 	}
 	
-	public static void setLowerBound(interval interval,int newLowerBound) {
-		interval.lowerbound=newLowerBound;
+	public  void setLowerBound(int newLowerBound) {
+		this.lowerbound=newLowerBound;
 	}
 	
-	public static void setUpperBound(interval interval, int newUpperBound) {
-		interval.upperbound=newUpperBound;
+	public  void setUpperBound( int newUpperBound) {
+		this.upperbound=newUpperBound;
 	}
 	
 	
